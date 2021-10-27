@@ -29,23 +29,21 @@ def timing(function):
 
 # TODO: If you would like to do so, add and then experimentally evaluate more methods
 
-# TODO: Make sure that you understand the purpose of the @timing annotation for these functions
+# TODO: Make sure that you understand the purpose of the timing annotation for these functions
+# TODO: Add the timing annotation to each of the following functions
 
-@timing
 def unique_set(data: List[str]) -> List[str]:
     """Perform uniquification of the input list of strings and return results in a list of strings."""
     # TODO: Add the source code for method f7
     # TODO: You may need to add type hints or statements to support mypy checking
 
 
-@timing
 def unique_setcomprehension(data: List[str]) -> List[str]:
     """Perform uniquification of the input list of strings and return results in a list of strings."""
     # TODO: Add the source code for method f8
     # TODO: You may need to add type hints or statements to support mypy checking
 
 
-@timing
 def unique_dictionary(data: List[str]) -> List[str]:
     """Perform uniquification of the input list of strings and return results in a list of strings."""
     # TODO: Add the source code for method f12
