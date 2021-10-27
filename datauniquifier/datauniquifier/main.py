@@ -70,5 +70,5 @@ def main(
     # TODO: display the reduction and percent reduction that is a result of the uniquification process
     # TODO: make sure that your program output is exactly like the output provided on Discord
     # TODO: once you finish implementing the program make sure that you evaluate:
-    # --> Time efficiency and memory consumption for column 0 and column 1
+    # --> Time efficiency and memory consumption and percent reduction for column 0 and column 1
     #     when running at least three of the uniquification algorithms in the uniquify module
