@@ -24,7 +24,6 @@ datauniquifier/datauniquifier/main.py:
     CountMultipleLineComments --language Python --count 2
     CountSingleLineComments --language Python --count 16
 
-
 # --> check the Python program
 datauniquifier/datauniquifier/uniquify.py:
     ConfirmFileExists
