@@ -68,7 +68,8 @@ def main(
     console.print("Estimated overall memory according to the operating system:")
     console.print("   " + analyze.format_bytes(process.memory_info().vms))
     # TODO: display the reduction and percent reduction that is a result of the uniquification process
-    # TODO: make sure that your program output is exactly like the output provided on Discord
+    # TODO: make sure that your program output is exactly like the
+    # output provided in the project description on the Proactive Programmers web site
     # TODO: once you finish implementing the program make sure that you evaluate:
     # --> Time efficiency and memory consumption and percent reduction for column 0 and column 1
     #     when running at least three of the uniquification algorithms in the uniquify module
