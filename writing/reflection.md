@@ -1,5 +1,11 @@
 # List Uniquification
 
+TODO: Please delete all of the TODO markers and prompts inside of this file. You
+also need to ensure that this file does not have any mistakes in Markdown,
+syntax, or technical content. This means that when you are finished with this
+reflection it should contain polished responses that are suitable for
+publication on your professional web site.
+
 ## Add Your Name Here
 
 ## Program Input and Output
