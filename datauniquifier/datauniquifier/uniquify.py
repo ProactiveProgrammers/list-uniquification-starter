@@ -38,7 +38,7 @@ def unique_set(data: List[str]) -> List[str]:
     # TODO: You may need to add type hints or statements to support mypy checking
 
 
-def unique_setcomprehension(data: List[str]) -> List[str]:
+def unique_listcomprehension(data: List[str]) -> List[str]:
     """Perform uniquification of the input list of strings and return results in a list of strings."""
     # TODO: Add the source code for method f8
     # TODO: You may need to add type hints or statements to support mypy checking
