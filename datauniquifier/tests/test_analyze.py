@@ -3,9 +3,10 @@
 
 from datauniquifier import analyze
 
+# TODO: Add docstrings that explain the purpose of each of these test cases
+
 
 def test_half_reduction():
-    """Confirm that a half reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b"]
     reduction = analyze.calculate_reduction(list_start, list_end)
@@ -13,7 +14,6 @@ def test_half_reduction():
 
 
 def test_half_reduction_percentage():
-    """Confirm that a 50% reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b"]
     reduction = analyze.calculate_percent_reduction(list_start, list_end)
@@ -21,7 +21,6 @@ def test_half_reduction_percentage():
 
 
 def test_small_reduction():
-    """Confirm that a half reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b", "c"]
     reduction = analyze.calculate_reduction(list_start, list_end)
@@ -29,7 +28,6 @@ def test_small_reduction():
 
 
 def test_small_reduction_percentage():
-    """Confirm that a 25% reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b", "c"]
     reduction = analyze.calculate_percent_reduction(list_start, list_end)
@@ -37,7 +35,6 @@ def test_small_reduction_percentage():
 
 
 def test_no_reduction():
-    """Confirm that a half reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b", "c", "d"]
     reduction = analyze.calculate_reduction(list_start, list_end)
@@ -45,7 +42,6 @@ def test_no_reduction():
 
 
 def test_no_reduction_percentage():
-    """Confirm that a 0% reduction is calculated correctly."""
     list_start = ["a", "b", "c", "d"]
     list_end = ["a", "b", "c", "d"]
     reduction = analyze.calculate_percent_reduction(list_start, list_end)
