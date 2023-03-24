@@ -5,11 +5,12 @@ from typing import List
 from functools import wraps
 from time import time
 
+# Reference:
+# https://stackoverflow.com/questions/1622943/timeit-versus-timing-decorator
+
 
 def timing(function):
     """Define a profiling function for execution time."""
-    # Reference:
-    # https://stackoverflow.com/questions/1622943/timeit-versus-timing-decorator
     @wraps(function)
     def wrap(*args, **kw):
         ts = time()
