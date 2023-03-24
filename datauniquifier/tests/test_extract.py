@@ -2,9 +2,10 @@
 
 from datauniquifier import extract
 
+# TODO: Add docstrings that explain the purpose of each of these test cases
+
 
 def test_extract_column_zero_and_one_correct_length():
-    """Check that the extraction of column one and two works correctly for length."""
     data = """kylebarnes@hotmail.com,Records manager
 joe70@yahoo.com,Network engineer
 torresjames@white.info,Electrical engineer
@@ -16,7 +17,6 @@ shawkins@watson.com,Science writer"""
 
 
 def test_extract_column_zero_and_one_correct_content():
-    """Check that the extraction of column one works correctly for content."""
     data = """kylebarnes@hotmail.com,Records manager
 joe70@yahoo.com,Network engineer
 torresjames@white.info,Electrical engineer
