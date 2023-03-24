@@ -32,7 +32,7 @@ TODO: Use a fenced code block to provide the output from running the test suite.
 
 TODO: Write at least one paragraph to explain the requested source code
 
-```
+```python
 for line in csv.reader(
     data.splitlines(),
     quotechar='"',
@@ -46,7 +46,7 @@ for line in csv.reader(
 
 TODO: Write at least one paragraph to explain the requested source code
 
-```
+```python
 def calculate_reduction(list_start, list_final):
     """Calculate the reduction in the size of the list."""
     return len(list_start) - len(list_final)
@@ -67,7 +67,7 @@ of source code, then please consult online resources or ask a question on
 Discord. If you are still not sure how a line of source code works, please use
 explain everything that you do understand about that specific line.
 
-```
+```python
 def timing(function):
     """Define a profiling function for execution time."""
     @wraps(function)
@@ -88,7 +88,7 @@ def timing(function):
 TODO: Your response to this question should use concrete numbers that resulted
 from running the `datauniquifier` program.
 
-## Please use output from running the program to explain how much list uniquification decreases the size of each column.
+## Please use output from running the program to explain how much list uniquification decreases the size of each column
 
 TODO: Your response to this question should use concrete numbers that resulted
 from running the `datauniquifier` program.
@@ -108,3 +108,5 @@ TODO: provide a one paragraph response to this question, using source code compo
 TODO: provide a one paragraph response to this question, using source code components and technical details.
 
 ### At your own option, do you have any other insights to share about this assignment?
+
+TODO: at your option, provide a one paragraph response to this question
